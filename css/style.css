@@ -1,0 +1,112 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: hk_groteskbold;
+	background: #e2e7ec;
+	font-size: 10px;
+	/*
+	hk_groteskregular
+	hk_groteskmedium
+	hk_grotesklight
+	hk_groteskbold
+	*/
+}
+div{
+	display: block;
+}
+.conteudo{
+	width: 100%;
+	max-width: 1120px;
+	margin: 0 auto;
+}
+.column-principal{
+	margin-top: 100px;
+	width: 100%;
+	height: 540px;
+}
+.post-content{
+	position: relative;
+}
+.post-information {
+	position: absolute;
+	top: 405px;
+	left: 45px;
+}
+.post-information h2{
+	width: 500px;
+	font-family:hk_groteskbold;
+	font-size: 30px;
+	text-transform: uppercase;
+	color: #fff;
+}
+
+.post-date{
+	margin-bottom: 25px;
+	font-family:hk_grotesklight;
+	font-size: 14px;
+	text-transform: uppercase;
+	color:rgba(236, 240, 241,0.5);
+}
+.img-principal{
+	max-width: 740px;
+	max-height: 540px;
+}
+.card{
+	max-width: 360px;
+	height: 540px;
+	margin-left: 20px;
+	background-color: #fff;
+	z-index: -1;
+}
+.card img{
+	max-width: 360px;
+	max-height: 540px;
+}
+.post-title{
+	width: 300px;
+	font-family: 'Raleway', sans-serif;
+	font-size: 22px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #000;
+}
+.posts{
+	margin-left: 20px;
+	margin-top: 30px;
+}
+.user-notification{
+	width: 300px;
+	margin-left: 20px;
+	margin-top: 70px;
+
+}
+.img-author{
+	height: 50px;
+	width: 50px;
+}
+
+.column-secondary .card:first-child{
+	margin:20px 0;
+	background-color: pink;
+}
+/*
+.column-secondary .card:nth-child(2){
+	background-color: gray;
+	float: left;
+}
+.column-secondary .card:last-child{
+	margin:20px 0;
+	background-color: green;
+	float: right;
+}
+
+*/
+
+.fl-right{float:right;}
+.fl-left{float: left;}
+.cl-gray{color: #95a5a6 !important;}
+.radius{border-radius: 50%;}
+.shadow{box-shadow: 0px 10px 10px 2px #7f8c8d}
