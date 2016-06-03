@@ -22,6 +22,10 @@ div{
 	max-width: 1120px;
 	margin: 0 auto;
 }
+.column-principal, .column-secondary{
+	display: inline-flex;
+}
+
 .column-principal{
 	margin-top: 100px;
 	width: 100%;
@@ -88,9 +92,6 @@ div{
 .img-author{
 	height: 50px;
 	width: 50px;
-}
-.column-secondary{
-	display:inline-block;
 }
 
 .column-secondary .card:first-child{
